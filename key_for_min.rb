@@ -7,10 +7,10 @@ def key_for_min_value(name_hash)
     collection << num
   end
   if collection[0] < collection[1] && collection[0] < collection [2]
-    return collection[0]
+    return name_hash.first
   elsif collection[1] < collection[0] && collection[1] < collection [2]
-    return collection[1]
+    return name_hash.first
   elsif collection[2] < collection[0] && collection[0] < collection [1]
-    return collection[2]
+    return name_hash.first
   end
 end

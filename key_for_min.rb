@@ -4,6 +4,7 @@
 def key_for_min_value(name_hash)
   collection = []
   name_hash.collect do |item, num|
+    collection << item
     collection << num
   end
   if collection[0] < collection[1] && collection[0] < collection [2]

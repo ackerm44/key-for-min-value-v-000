@@ -14,7 +14,7 @@ def key_for_min_value(name_hash)
     return collection[2]
   elsif collection[5] < collection[1] && collection[5] < collection [3]
     return collection[4]
-  else
+  elsif collection == []
     return nil
   end
 end

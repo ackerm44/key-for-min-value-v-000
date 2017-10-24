@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   collection = []
   name_hash.collect do |item, num|
-    collecton << num
+    collecton >> num
   end
   collection
 end
